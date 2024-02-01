@@ -11,5 +11,5 @@ for i in range(len(l2)):
     b = b + str(l2[i])
     b_num = int(b)
 
-c_num = a_num + b_num
-print(c_num)
+c = str(a_num + b_num)
+print(list(reversed(c)))
