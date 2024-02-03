@@ -1,6 +1,6 @@
-s = 'babsh'
+s = "babsh"
 
-result = ''
+result = ""
 for i in s:
     if i in result:
         result += i

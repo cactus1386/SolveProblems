@@ -1,5 +1,5 @@
-s = 'abccdcab'
-result = ''
+s = "abccdcab"
+result = ""
 
 for i in s:
     if i in result:

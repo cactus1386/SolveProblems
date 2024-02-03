@@ -1,8 +1,8 @@
 x = 320
-r = ''
+r = ""
 
 for i in reversed(str(x)):
-    if i == '-':
+    if i == "-":
         negetive = True
         pass
     else:
@@ -10,7 +10,7 @@ for i in reversed(str(x)):
         r += i
 
 if negetive:
-    result = int(('-' + r))
+    result = int(("-" + r))
     print(result)
 
 else:
