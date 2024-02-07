@@ -2,9 +2,10 @@
 
 def eyes(inp, inp2):
     r = 0
-    for i in range(0,7):
-        if inp[i] == inp2[i] == '1':
-            r += 1
+    for i in range(0,16):
+        if i % 2 == 0:
+            if inp[i] == inp2[i] == '1':
+                r += 1
     return r
 
 inp = input()
