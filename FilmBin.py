@@ -2,10 +2,14 @@
 
 def Sort(n):
     r = []
+    u = ''
     for i in range(n):
-        a = input()
-        result = a[0].upper() + a[1:].lower()
-        r.append(result)
+        a = input().split()
+        for word in a: 
+            result = word[0].upper() + word[1:].lower()
+            u += result + ' '
+        r.append(u)
+        u = ''
     
     for x in r:
         print(x)
