@@ -1,17 +1,15 @@
-x = int(input("Enter your number: "))
-r = []
-result = 0
+def is_complete(n):
+    result = 0
 
-for i in range(1, x):
-    if x % int(i) == 0:
-        r.append(int(i))
-    else:
-        pass
+    for i in range(1, n // 2 + 1):
+        if n % i == 0:
+            result += i
 
-for n in r:
-    result += n
+    return result == n
 
-if int(result) == x:
+
+n = int(input())
+if is_complete(n):
     print("YES")
 else:
     print("NO")
