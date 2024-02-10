@@ -15,8 +15,8 @@ def BiggestPart(n, degree):
         else:
             b.append(a[i] - a[i - 1])
 
-        b.append(360 - a[-1])
-
+        
+    b.append(360 - a[-1])
     persent = max(b) / 3.6
     print(persent)
 
