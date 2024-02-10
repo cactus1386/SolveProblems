@@ -3,7 +3,7 @@
 def BiggestPart(n, degree):
     a = []
     b = []
-    for i in range(n):
+    for m in range(n):
         for word in degree.split():
             a.append(float(word))
 
